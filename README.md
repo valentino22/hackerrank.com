@@ -1,2 +1,3 @@
 # hackerrank.com
-Javascript solutions to hackerrank.com challenges https://www.hackerrank.com/dashboard
+
+## My solutions to hackerrank.com challenges
