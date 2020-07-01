@@ -1,7 +1,7 @@
 // the optimal solution simply sorts the numbers and subtracts each element from the previous one. There's no need to create the arrays as the description suggests because the minimum difference will be calculated by 2 neighboring numbers from the sorted array anyway.
 function minimumAbsoluteDifference(arr) {
 
-    var currentLoest = 100000000000;
+    var currentLowest = 100000000000;
 
     // numeric sort needs a function in JS, since the vanilla sort only does lexicographic sorting
     var sortedArray = arr.sort((a, b) => (a - b));
